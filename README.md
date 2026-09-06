@@ -1,4 +1,4 @@
-# Flask Docker Entorno
+# Flask Docker+MySql Entorno
 
 Proyecto básico de **Flask** ejecutado dentro de un contenedor **Docker**, con soporte para dos entornos:  
 - Desarrollo (debug activado)  
@@ -34,7 +34,7 @@ docker build -t flask_entorno .
   docker run -e ENVIRONMENT=production -p 5000:5000 flask_entorno
 
 6. **Conexión a la Base de Datos:**
-   1. Crear una nueva conexión:
+   a. Crear una nueva conexión:
       Ports: 3306
       User: root
       Pass: root
