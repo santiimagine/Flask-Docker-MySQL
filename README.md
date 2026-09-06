@@ -24,7 +24,7 @@ flask-entorno/
    git clone https://github.com/tuusuario/flask-docker-entornos.git
    cd flask-docker-entornos
    
-2. **Contrucción de Imágen:**
+2. **Construcción de Imágen:**
 docker build -t flask_entorno .
 
 4. **Modo Debug:**
