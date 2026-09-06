@@ -39,11 +39,11 @@ docker build -t flask_entorno .
       User: root
       Pass: root
 7. **Ejecutar comandos en la Base de Datos:**
-   SHOW DATABASES;
-   USE testdb;
-   CREATE TABLE demo (id INT PRIMARY KEY, nombre VARCHAR(50));
-   INSERT INTO demo VALUES (1, 'Santiago');
-   SELECT * FROM demo;
+   1. SHOW DATABASES;
+   2. USE testdb;
+   3. CREATE TABLE demo (id INT PRIMARY KEY, nombre VARCHAR(50));
+   4. INSERT INTO demo VALUES (1, 'Santiago');
+   5. SELECT * FROM demo;
 8. Verificar los datos ingresados en la carpeta destino de datos:
    cd /var/lib/mysql
    ls
