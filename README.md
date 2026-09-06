@@ -10,28 +10,28 @@ Este proyecto demuestra cómo configurar una aplicación Flask con Docker y mane
 
 ## Estructura del proyecto
 
+```
 flask-entorno/
 │
 ├── app.py
 ├── requirements.txt
 └── Dockerfile
-
-
+```
 
 ## Instalación
 
 1. **Clonar el repositorio:**
-   git clone https://github.com/tuusuario/flask-docker-MySql-Env.git
-   cd flask-entorno
+   1. git clone https://github.com/tuusuario/flask-docker-MySql-Env.git
+   2. cd flask-entorno
    
 2. **Construcción de Imágen:**
-docker build -t flask_entorno .
+   docker build -t flask_entorno .
 
 4. **Modo Debug:**
    docker run -e ENVIRONMENT=development -p 5000:5000 flask_entorno
 
 5. **Modo Producción:**
-  docker run -e ENVIRONMENT=production -p 5000:5000 flask_entorno
+   docker run -e ENVIRONMENT=production -p 5000:5000 flask_entorno
 
 6. **Conexión a la Base de Datos:**
    1. Crear una nueva conexión:
