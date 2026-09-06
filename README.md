@@ -33,3 +33,20 @@ docker build -t flask_entorno .
 5. **Modo Producción:**
   docker run -e ENVIRONMENT=production -p 5000:5000 flask_entorno
 
+6. **Conexión a la Base de Datos:**
+   1. Crear una nueva conexión:
+      Ports: 3306
+      User: root
+      Pass: root
+7. **Ejecutar comandos en la Base de Datos:**
+   SHOW DATABASES;
+   USE testdb;
+   CREATE TABLE demo (id INT PRIMARY KEY, nombre VARCHAR(50));
+   INSERT INTO demo VALUES (1, 'Santiago');
+   SELECT * FROM demo;
+8. Verificar los datos ingresados en la carpeta destino de datos:
+   cd /var/lib/mysql
+   ls
+9. **¡Listo!**
+
+
