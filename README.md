@@ -1,4 +1,4 @@
-# Flask Docker+MySql Entorno
+# Flask-Docker-MySQL
 
 Proyecto básico de **Flask** ejecutado dentro de un contenedor **Docker**, con soporte para dos entornos:  
 - Desarrollo (debug activado)  
@@ -21,7 +21,7 @@ flask-entorno/
 ## Instalación
 
 1. **Clonar el repositorio:**
-   1. git clone https://github.com/tuusuario/flask-docker-MySql-Env.git
+   1. git clone https://github.com/tuusuario/Flask-Docker-MySQL.git
    2. cd flask-entorno
    
 2. **Construcción de Imágen:**
