@@ -14,8 +14,11 @@ Este proyecto demuestra cómo configurar una aplicación Flask con Docker y mane
 flask-entorno/
 │
 ├── app.py
+├── docker-compose.yml
 ├── requirements.txt
 └── Dockerfile
+
+
 ```
 
 ## Instalación
