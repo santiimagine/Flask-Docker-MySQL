@@ -21,7 +21,7 @@ flask-entorno/
 ## Instalación
 
 1. **Clonar el repositorio:**
-   1. git clone https://github.com/tuusuario/Flask-Docker-MySQL.git
+   1. git clone https://github.com/santiimagine/Flask-Docker-MySQL
    2. cd flask-entorno
    
 2. **Construcción de Imágen:**
